@@ -35,7 +35,11 @@
     <body>
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="navbar-header page-scroll">
+                    <a href="index.html"><img src="img/home.png" height="64" width="64" alt="portrait" class="img-responsive img-rounded"></a>
+            </div>
             <div class="container">
+
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header page-scroll">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -55,20 +59,26 @@
                             <a href="#page-top"></a>
                         </li>
                         <li class="page-scroll">
+                            <a href="#Introduction">Introduction</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#Pipeline">Pipeline</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#Sample_Output">Sample Output</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#Limitations">Limitations</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#References">References</a>
+                        </li>
+                        <!-- <li class="page-scroll">
                             <a href="#dcgans">DCGANs</a>
                         </li>
                         <li class="page-scroll">
                             <a href="#deepcompletion">Deep Completion</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#publications">Publications</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#petprojects">Pet Projects</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="imageinpainting.html">Image Inpainting</a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -76,7 +86,67 @@
             <!-- /.container-fluid -->
         </nav>
 
-        <section id="dcgans">
+        <section id="Introduction">
+            <h3> Introduction </h3>
+                <p style="font-size:15px"> Coming soon..
+                </p>
+        </section>
+        <section id="Pipeline">
+            <h3> Pipeline </h3>
+            <p style="font-size:15px"> Coming soon..
+            </p>
+        </section>
+        <section id="Sample_Output">
+            <h3> Sample output </h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/l_GPsFXWN14" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/G5POlSUg0AM" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <section id="Limitations">
+            <h3> Limitations </h3>
+            <ul>
+                <li>
+                    The person of interest should appear upright in the image.
+                </li>
+                <li>
+                    The scene should not be too crowded so that there is sufficient gap between two person.
+                </li>
+                <li>
+                    Does not work with humans looking small ( this can be improved ).
+                </li>
+                <li>
+                    Does not work well with humans in scenes that are not street like.
+                </li>
+            </ul>
+        </section>
+        <section id="References">
+            <h3> References </h3>
+                <p style="font-size:15px"> 
+                    <ul>
+                        <li>
+                            <a href="https://smartech.gatech.edu/bitstream/handle/1853/31468/09-05.pdf"> 
+                                Centrist: A Visual Descriptor for Scene Categorization
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://c2inet.sce.ntu.edu.sg/Jianxin/paper/ICRA_final.pdf"> 
+                                Real-time Human Detection using contour cues
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://arxiv.org/pdf/1606.02147.pdf"> 
+                                ENet: A Deep Neural Network Architecture for Real-time Semantic Segmentaion
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.irisa.fr/vista/Papers/2004_ip_criminisi.pdf"> 
+                                Region filling and Object Removal by Exemplar-Based Image Inpainting
+                            </a>
+                        </li>
+                    </ul>
+                </p>
+        </section>
+
+        <!-- <section id="dcgans">
             <h3>DCGANs</h3>
                 <h6> Why DCGANs? </h6>
                     <p style="font-size:15px"> DCGANs stands for Deep Convolutional Generative Adversial Networks. 
@@ -125,7 +195,7 @@
                 <p style="font-size:15px"> Bran in this blog shows how to use DCGANs for scene completition
                 <a href="http://bamos.github.io/2016/08/09/deep-completion/#introduction">Deep Completion</a>
                 </p>
-        </section>
+        </section> -->
 
     </body>
 
